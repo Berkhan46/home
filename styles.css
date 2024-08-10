@@ -1,0 +1,65 @@
+body{
+  background-color: salmon;
+}
+
+
+h1{
+  text-align: center;
+  color: white;
+  background-color: bisque;
+  padding: 50px;
+  margin-top: 0px;
+  }
+  
+
+
+
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.navbar a{
+margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+
+.navbar a:hover{
+  background-color: rgb(183, 183, 183);
+}
+
+.gs{
+  
+  display: flex;
+  justify-content: flex-start;
+}
+
+.gs img{
+  width: 200px;
+  margin-top: 50px;
+  margin: 5px;
+}
+
+.gs>p{
+float: right;
+
+}
+
+
+
+
+
+.fb{ display: flex;
+  justify-content: flex-end;
+
+}
+
+.fb img{
+ order: 1;
+  width: 200px;
+  margin-left: 20px;
+  
+}
